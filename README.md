@@ -22,20 +22,22 @@ padded one, and there is only so much a drywall contractor needs to say.
 
 ## Design
 
-Identity: **the flat plane.** A drywall contractor's craft is invisibility — a
-Level 5 finish is one you cannot see, with no visible joint anywhere. So this
-is the only site in the set that spends almost no strokes: sections separate by
-**tone and raking light** rather than by rules, cards are lifted planes with
-shadow instead of outlines, and the `.rake` class washes a soft directional
-gradient across a section the way light crosses a wall.
+Identity: **the flat plane**, in the trade's own colours. Gypsum board is
+colour-coded by type — ivory for standard, green for moisture-resistant,
+purple for mould-resistant, blue for sound-damping, pink for Type X
+fire-rated — and primer blue is what a finished wall looks like before paint.
+Those five codes and that blue are the entire palette, and each one is used to
+mean something rather than to decorate:
 
-**Achromatic by design.** Drywall is white, so the palette is too — five
-neutral planes (`--p0` through `--p4`) from freshly sanded compound to the edge
-of the light, plus ink. Every hex in the stylesheet has an RGB spread of 12 or
-less. Emphasis comes from scale and weight, never hue.
+- the **colour bar** under the header runs all five codes in order
+- the **service cards** take one code each
+- the **finish levels** ramp from grey to full primer blue as the level rises
+- the **board types** section is the code itself, explained
+- the **joint drawing** puts the tape in red and the three coats in deepening
+  blue, so the sequence reads at a glance
 
-Type is light and wide rather than heavy: **Outfit** at weight 200–300 in large
-sizes over **Hanken Grotesk** for text.
+Type is **Outfit** over **Hanken Grotesk**, with the display weight lifted to
+300 and headline emphasis carried in primer blue.
 
 Original drawn graphic: a **taped joint in section** — two tapered-edge boards
 meeting in the recess, paper tape bedded into it, then tape, fill and finish
@@ -44,7 +46,7 @@ It carries the real drafting note: *vertical scale exaggerated ×20*, because at
 true scale none of it would be visible. That is the whole argument of the site
 in one drawing.
 
-Signature component: **the finish levels scale**, Levels 0–5 as defined by the
+Signature components: **the finish levels scale**, Levels 0–5 as defined by the
 industry finishing standard, with 4 and 5 lifted out of the list. Almost no
 contractor site publishes this, and it is the single most useful thing a
 customer can know before comparing quotes.

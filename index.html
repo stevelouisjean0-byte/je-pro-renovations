@@ -26,9 +26,11 @@
   </div>
 </header>
 
+<div class="bar" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
 <main>
 
-  <section class="plane-1 rake">
+  <section class="plane-dark rake">
     <div class="wrap" style="padding-top: clamp(56px, 8vw, 104px); padding-bottom: clamp(64px, 9vw, 120px)">
       <span class="chip"><span class="dot"></span>Opens 8 AM Monday</span>
       <h1 class="display" style="margin-top: 34px; max-width: 22ch">The best drywall is the drywall you <em>never notice.</em></h1>
@@ -73,16 +75,16 @@
       <figure class="shot" style="margin: 0">
         <svg viewBox="0 0 720 270" fill="none" role="img" aria-label="A section detail of a taped drywall joint showing two tapered-edge boards, paper tape bedded in the recess, and tape, fill and finish coats feathering wider and thinner. Vertical scale exaggerated twenty times." style="width: 100%">
           <!-- gypsum boards, tapered edges meeting at the joint -->
-          <path d="M40 192L40 150L275 150L357 157L357 192Z" fill="var(--p3)" stroke="var(--ink-2)" stroke-width="1.4"/>
-          <path d="M363 192L363 157L445 150L680 150L680 192Z" fill="var(--p3)" stroke="var(--ink-2)" stroke-width="1.4"/>
+          <path d="M40 192L40 150L275 150L357 157L357 192Z" fill="var(--paper-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
+          <path d="M363 192L363 157L445 150L680 150L680 192Z" fill="var(--paper-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
 
           <!-- paper tape, bedded into the recess -->
-          <path d="M312 155.6Q360 158 408 155.6" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M312 155.6Q360 158 408 155.6" stroke="var(--code-fire)" stroke-width="4" stroke-linecap="round"/>
 
           <!-- three coats: each wider, each thinner, feathering to nothing -->
-          <path d="M295 150Q360 146 425 150" stroke="var(--ink-2)" stroke-width="1.7" stroke-linecap="round"/>
-          <path d="M250 150Q360 142.5 470 150" stroke="var(--ink-2)" stroke-width="1.4" stroke-linecap="round"/>
-          <path d="M200 150Q360 139 520 150" stroke="var(--ink)" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M295 150Q360 146 425 150" stroke="var(--blue-deep)" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M250 150Q360 142.5 470 150" stroke="var(--blue)" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M200 150Q360 139 520 150" stroke="var(--blue-hi)" stroke-width="1.2" stroke-linecap="round"/>
 
           <!-- board thickness dimension -->
           <g stroke="var(--ink-4)" stroke-width="1">
@@ -99,10 +101,10 @@
             <path d="M425 148.5L558 150"/>
             <path d="M408 156L558 180"/>
           </g>
-          <text x="566" y="96" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--ink)">FINISH COAT</text>
-          <text x="566" y="126" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--ink-2)">FILL COAT</text>
-          <text x="566" y="154" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--ink-2)">TAPE COAT</text>
-          <text x="566" y="184" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--ink-2)">PAPER TAPE</text>
+          <text x="566" y="96" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue-hi)">FINISH COAT</text>
+          <text x="566" y="126" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue)">FILL COAT</text>
+          <text x="566" y="154" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue-deep)">TAPE COAT</text>
+          <text x="566" y="184" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--code-fire)">PAPER TAPE</text>
 
           <!-- tapered edge call-out -->
           <path d="M360 168v34" stroke="var(--ink-4)" stroke-width="1" stroke-dasharray="4 4"/>
@@ -214,12 +216,60 @@
       <p class="fine" style="margin-top: 30px">Levels 0–5 as defined by the industry finishing standard. Ask us which level a quote covers — and if the answer is vague anywhere, that is worth knowing.</p>
     </div>
   </section>
+ . 
+  <section class="plane-3 section">
+    <div class="wrap">
+      <p class="cap">Board types</p>
+      <h2 class="h-section" style="margin-top: 18px; max-width: 26ch">Drywall is <em>colour-coded.</em> Here is what the colours mean.</h2>
+      <p class="body measure" style="margin-top: 22px; margin-bottom: 44px">Board is not one product. The paper face is tinted by type, so you can tell at a glance what is going on a wall — and whether the right board went into the right room. In Florida the moisture and mould grades matter more than they do almost anywhere else.</p>
+
+      <div class="swatches">
+        <article class="swatch">
+          <div class="chipface"><span>Ivory</span></div>
+          <div class="txt">
+            <h3>Standard</h3>
+            <p>General walls and ceilings in dry rooms. The default, and the cheapest — which is why it sometimes turns up where it should not.</p>
+          </div>
+        </article>
+        <article class="swatch">
+          <div class="chipface"><span>Green</span></div>
+          <div class="txt">
+            <h3>Moisture-resistant</h3>
+            <p>Bathrooms, laundry rooms and kitchens. Resists damp air. Not a waterproof board and not a substitute for a proper tile backer in a shower.</p>
+          </div>
+        </article>
+        <article class="swatch">
+          <div class="chipface"><span>Purple</span></div>
+          <div class="txt">
+            <h3>Mould-resistant</h3>
+            <p>Built for humidity, which in Central Florida is most of the year. The grade worth arguing for in any room that has already had a problem.</p>
+          </div>
+        </article>
+        <article class="swatch">
+          <div class="chipface"><span>Blue</span></div>
+          <div class="txt">
+            <h3>Sound-damping</h3>
+            <p>Shared walls, bedrooms next to living space, media rooms and home offices. Heavier, and it changes the room more than people expect.</p>
+          </div>
+        </article>
+        <article class="swatch">
+          <div class="chipface"><span>Pink</span></div>
+          <div class="txt">
+            <h3>Type X, fire-rated</h3>
+            <p>Garages, the wall and ceiling between a garage and the house, and anywhere code calls for a rated assembly. Not optional where it is required.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="fine" style="margin-top: 26px">Colours follow common manufacturer conventions and can vary by brand. Ask which board is going into which room — a quote that specifies it is a quote from someone paying attention.</p>
+    </div>
+  </section>
 
   <div class="bleed">
     <img src="assets/img/taping.jpg" alt="A worker applying joint compound to a wall">
   </div>
 
-  <section class="plane-0 section">
+  <section class="plane-dark section">
     <div class="wrap">
       <p class="cap">What people say</p>
       <div class="quote-list" style="margin-top: 40px">
