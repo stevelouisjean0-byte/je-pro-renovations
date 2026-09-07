@@ -7,7 +7,7 @@
 <meta name="description" content="J&amp;E Pro Renovations LLC — drywall hanging, taping and finishing in Orlando, Florida. 5.0 stars from 8 reviews, every one five stars. (407) 364-2107.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -31,6 +31,7 @@
 <main>
 
   <section class="plane-dark rake">
+    <canvas id="chart" aria-hidden="true"></canvas>
     <div class="wrap" style="padding-top: clamp(56px, 8vw, 104px); padding-bottom: clamp(64px, 9vw, 120px)">
       <span class="chip"><span class="dot"></span>Opens 8 AM Monday</span>
       <h1 class="display" style="margin-top: 34px; max-width: 22ch">The best drywall is the drywall you <em>never notice.</em></h1>
@@ -75,16 +76,16 @@
       <figure class="shot" style="margin: 0">
         <svg viewBox="0 0 720 270" fill="none" role="img" aria-label="A section detail of a taped drywall joint showing two tapered-edge boards, paper tape bedded in the recess, and tape, fill and finish coats feathering wider and thinner. Vertical scale exaggerated twenty times." style="width: 100%">
           <!-- gypsum boards, tapered edges meeting at the joint -->
-          <path d="M40 192L40 150L275 150L357 157L357 192Z" fill="var(--paper-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
-          <path d="M363 192L363 157L445 150L680 150L680 192Z" fill="var(--paper-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
+          <path d="M40 192L40 150L275 150L357 157L357 192Z" fill="var(--surface-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
+          <path d="M363 192L363 157L445 150L680 150L680 192Z" fill="var(--surface-2)" stroke="var(--ink-2)" stroke-width="1.4"/>
 
           <!-- paper tape, bedded into the recess -->
           <path d="M312 155.6Q360 158 408 155.6" stroke="var(--code-fire)" stroke-width="4" stroke-linecap="round"/>
 
           <!-- three coats: each wider, each thinner, feathering to nothing -->
-          <path d="M295 150Q360 146 425 150" stroke="var(--blue-deep)" stroke-width="1.7" stroke-linecap="round"/>
-          <path d="M250 150Q360 142.5 470 150" stroke="var(--blue)" stroke-width="1.4" stroke-linecap="round"/>
-          <path d="M200 150Q360 139 520 150" stroke="var(--blue-hi)" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M295 150Q360 146 425 150" stroke="var(--teal-deep)" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M250 150Q360 142.5 470 150" stroke="var(--teal)" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M200 150Q360 139 520 150" stroke="var(--teal-bright)" stroke-width="1.2" stroke-linecap="round"/>
 
           <!-- board thickness dimension -->
           <g stroke="var(--ink-4)" stroke-width="1">
@@ -101,9 +102,9 @@
             <path d="M425 148.5L558 150"/>
             <path d="M408 156L558 180"/>
           </g>
-          <text x="566" y="96" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue-hi)">FINISH COAT</text>
-          <text x="566" y="126" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue)">FILL COAT</text>
-          <text x="566" y="154" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--blue-deep)">TAPE COAT</text>
+          <text x="566" y="96" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--teal-bright)">FINISH COAT</text>
+          <text x="566" y="126" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--teal)">FILL COAT</text>
+          <text x="566" y="154" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--teal-deep)">TAPE COAT</text>
           <text x="566" y="184" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="var(--code-fire)">PAPER TAPE</text>
 
           <!-- tapered edge call-out -->
@@ -333,5 +334,6 @@
   </div>
 </footer>
 
+<script src="assets/chart.js"></script>
 </body>
 </html>

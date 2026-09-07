@@ -22,37 +22,28 @@ padded one, and there is only so much a drywall contractor needs to say.
 
 ## Design
 
-Identity: **the flat plane**, in the trade's own colours. Gypsum board is
-colour-coded by type — ivory for standard, green for moisture-resistant,
-purple for mould-resistant, blue for sound-damping, pink for Type X
-fire-rated — and primer blue is what a finished wall looks like before paint.
-Those five codes and that blue are the entire palette, and each one is used to
-mean something rather than to decorate:
+This site uses **Coastal Electric of Naples' design system**, applied to J&E's
+content. Same tokens (verified identical), same type pairing, same component
+language:
 
-- the **colour bar** under the header runs all five codes in order
-- the **service cards** take one code each
-- the **finish levels** ramp from grey to full primer blue as the level rises
-- the **board types** section is the code itself, explained
-- the **joint drawing** puts the tape in red and the three coats in deepening
-  blue, so the sequence reads at a glance
+- deep Gulf navy `#0B2730`, chart teal `#12626F`, sunset amber `#B8801E` on
+  pale shell `#F5F4EF`
+- **Instrument Serif** over **Manrope**
+- centred bands, 1px-gap grids, hairline rules, stat strip
+- `assets/chart.js` draws the bathymetric contour hero on canvas; the subpage
+  openers carry the static contour SVG
 
-Type is **Outfit** over **Hanken Grotesk**, with the display weight lifted to
-300 and headline emphasis carried in primer blue.
+Two things are kept from the drywall build because they are content rather
+than styling:
 
-Original drawn graphic: a **taped joint in section** — two tapered-edge boards
-meeting in the recess, paper tape bedded into it, then tape, fill and finish
-coats each wider and thinner than the last, feathered to roughly ten inches.
-It carries the real drafting note: *vertical scale exaggerated ×20*, because at
-true scale none of it would be visible. That is the whole argument of the site
-in one drawing.
+- the **joint section detail**, recoloured onto the teal palette — tape in
+  brick, the three coats in deepening teal, still carrying the drafting note
+  that vertical scale is exaggerated ×20
+- the **board-type colour code** (ivory, green, purple, blue, pink), because
+  those colours are data — green board really is green — and they read here as
+  a legend, toned to sit with teal and amber
 
-Signature components: **the finish levels scale**, Levels 0–5 as defined by the
-industry finishing standard, with 4 and 5 lifted out of the list. Almost no
-contractor site publishes this, and it is the single most useful thing a
-customer can know before comparing quotes.
-
-Static HTML, no build step, no JavaScript. Google Fonts is the only external
-request.
+Static HTML, no build step. Google Fonts is the only external request.
 
 ## Sourcing
 
